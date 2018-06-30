@@ -1,0 +1,48 @@
+.ToDo-main .header input{
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(255,255,255);
+  width: 165px;    
+}
+
+.ToDo-main .header button{
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  border: 2px solid rgb(255,255,255);
+  background: rgb(0, 0, 160);
+  color: rgb(255,255,255);
+}
+
+.ToDo-main .header button:hover {
+  background-color:  rgb(0,0,255);
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.ToDo-main .theList{
+  list-style: none;
+  padding-left: 10px;
+  width:200px;
+}
+
+.ToDo-main .theList li{
+  color: rgb(0,64,64);
+  background: rgba(255,255,255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+.ToDo-main .theList li:hover{
+  background: pink;
+  cursor: pointer;
+}
+
+ul .theList{
+  padding:0;
+}
+
+
